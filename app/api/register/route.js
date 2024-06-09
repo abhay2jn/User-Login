@@ -7,7 +7,8 @@ import { NextResponse } from "next/server";
 
 export const POST = async(request) => {
     const { username , email ,password , confirmPassword } = await request.json();
-
+    console.log(password);
+    console.log(confirmPassword);
     if (password !== confirmPassword) {
         return new NextResponse(
             JSON.stringify({error:"Pasword does not match"},{status:402})

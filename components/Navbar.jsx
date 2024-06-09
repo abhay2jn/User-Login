@@ -24,7 +24,7 @@ function NavBar() {
                         <Link href="/login" className="text-white font-bold">Login</Link>
                     </li>
                     <li className="mx-4 mb-{2rem}">
-                        <Link href="/Register" className="text-white font-bold">Register</Link>
+                        <Link href="/register" className="text-white font-bold">Register</Link>
                     </li>
                     </>
                 </div>
